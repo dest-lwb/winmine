@@ -4,7 +4,7 @@
 -----------------------------------------------------------------------*/
 
 #include <windows.h>
-#include "winmine.h"
+#include <winmine.h>
 
 LRESULT CALLBACK WndProc (HWND, UINT, WPARAM, LPARAM) ;
 
