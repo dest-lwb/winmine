@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="mine.h">
+    <ClInclude Include="resource.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="resource.h">
+    <ClInclude Include="winmine.h">
       <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>
@@ -42,7 +42,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="mine.cpp">
+    <ClCompile Include="winmine.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>

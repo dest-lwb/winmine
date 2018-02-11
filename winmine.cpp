@@ -5,7 +5,7 @@
 
 #include <windows.h>
 #include "resource.h"
-#include "mine.h"
+#include "winmine.h"
 
 int WINAPI WinMain (HINSTANCE hInstance, HINSTANCE hPrevInstance,
                     PSTR szCmdLine, int iCmdShow)

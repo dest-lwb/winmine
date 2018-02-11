@@ -78,11 +78,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="mine.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="mine.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="winmine.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="mymine.rc" />
@@ -92,6 +89,9 @@
     <None Include="IDI_MINE.ico" />
     <None Include="IDB_MINE.bmp" />
     <None Include="IDB_BORDER.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="winmine.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
